@@ -1,0 +1,14 @@
+[Service]
+ExecStart=nodejs rutaBotConnectorBot
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=node-sample
+User=root
+Group=root
+Environment=NODE_ENV=production 
+Environment=MICROSOFT_APP_ID=app_id
+Environment=MICROSOFT_APP_PASSWORD=app_password
+
+[Install]
+WantedBy=multi-user.target

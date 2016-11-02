@@ -1,0 +1,41 @@
+module.exports = {
+    unknown: "Bleep blop, no te he entendido :( . Prueba con el comando 'help' para mostrar los comandos disponibles.",
+    helpMessage: 'Los comandos disponibles son:\n' +
+    '* test - comienza el juego :) \n' +
+	'* status - consulta tus respuestas correctas/fallidas. \n' +
+	'* voice - responde a tus preguntas pendientes con una una nota de voz. \n' +
+	'* evaluate - evalua las notas de voz de tus compañeros.',
+    runPrompt: 'Elige un tema para comenzar un test',
+    testCompleted: "The '%s' test has finished.",
+    canceled: '¡Espero volver a verte pronto!',
+    goodbye: '¡Adios!',
+	right: 'Correcto ',
+	wrong: 'Incorrecto ,', 
+	why: '¿Por qué?',
+	whynot: '¿Por qué no?',
+	next: 'Siguiente',
+	quit: 'Salir',
+	noWhy: 'No hay texto why definido',
+	noWhyNot: 'No hay texto whynot definido',
+	voicePrompt: 'Tiene una nueva pregunta para contestar con una nota de voz. Use el comando voice para contestar',
+	voicePrompt1: 'Tiene',
+	voicePrompt2: 'pregunta(s) pendiente(s) que tendrá que contestar con una nota de voz. ¿Desea contestar ahora o más tarde?',
+	now: 'Ahora',
+	later: 'Más tarde',
+	voiceCanceled: 'Podrá contestar mas tarde con el comando "voice"',
+	voiceFinished: 'Tu respuesta ha sido enviada correctamente para ser evaluada por tus compañeros',
+	voiceTime: 'La fecha límite ha concluido, ya no puede contestar a esta pregunta',
+	noVoice: 'No tiene ninguna pregunta pendiente.',
+	voiceAnswer: 'Conteste con una nota de voz la siguiente pregunta:',
+	evaluatePrompt: 'Tiene una nueva nota de voz de un compañero pendiente de evaluar. Use el comando evaluate para evaluarla',
+	noEvaluate: 'No tiene ninguna respuesta para evaluar pendiente.',
+	evaluatePrompt1: 'Tiene',
+	evaluatePrompt2: 'respuesta(s) pendiente(s) de evaluar. ¿Desea hacerlo ahora o más tarde?',
+	evaluateCanceled: 'Podrá evaluar más tarde con el comando evaluate',
+	evaluateAnswer: 'Evalue del 1 al 10 la respuesta de la siguiente pregunta:',
+	evaluateWrong: 'Debe evaluar del 1 al 10. Vuelva a lanzar el comando evaluate',
+	evaluateFinished: 'Su nota ha sido guardada correctamente',
+	status1: 'Respuestas correctas: ',
+	status2: 'Respuestas fallidas: ',
+	status3: 'Precisión: '
+};

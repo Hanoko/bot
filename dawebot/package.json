@@ -1,0 +1,14 @@
+{
+  "name": "pablo",
+  "version": "1.0.0",
+  "description": "pablobot",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "3.1",
+    "fs": "0.0.2",
+    "node-mysql": "^0.4.2",
+    "restify": "^4.0.4",
+	"node-cron": "1.1.1"
+  }
+}
